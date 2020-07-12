@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/barra_fondovertical"
+    tools:context=".Menu_barra.Creditos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CRÉDITOS"
+        android:textColor="#A80409"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="26sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="El contenido usado para el desarrollo de este aplicativo de aprendizaje es obtenido del libro de Lengua y Literatura de 10º grado, otorgado por el Ministerio de Educación."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="La sección de contenido multimedia es extraída del diccionario de Lengua de Señas Ecuatoriano “Gabriel Román” que se puede encontrar en la página del Consejo Nacional de Igualdad de Discapacidades (CONADIS)."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="El aplicativo LectoEscritura es adaptable en smartphones y tablets con Sistema Operativo Android desde la versión Ice Cream Sandwich 4.0 en adelante."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:textColor="#A80409"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Desarrollado por:"
+                android:layout_marginVertical="10dp"
+                android:textColor="#A80409"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_marginVertical="6dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/barra_foto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Christian Chillogalli"
+                android:textColor="#0B41E4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="chrischillogallid64@outlook.com"
+                android:textColor="#0F0B0B"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="20dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/Face"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:onClick="opcion_redes"
+                    app:srcCompat="@drawable/barra_face" />
+
+                <ImageView
+                    android:id="@+id/Twitter"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:onClick="opcion_redes"
+                    app:srcCompat="@drawable/barra_twitter" />
+
+                <ImageView
+                    android:id="@+id/Insta"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:onClick="opcion_redes"
+                    app:srcCompat="@drawable/barra_insta" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Universidad Católica de Cuenca"
+                android:textColor="#0F0B0B"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Facultad de Ingeniería de Sistemas"
+                android:textColor="#0F0B0B"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/glosario_fondo"
+    tools:context=".Menu_Estudiante.Glosario.Familia.familia_contenido">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/glosario_familia" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaAbuelo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_abuelo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnAbueloPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnAbueloStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaAhijado"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_ahijado" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnAhijadoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnAhijadoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaBebe"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_bebe" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnBebePlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_play"/>
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnBebeStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaBisabuelo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_bisabuelo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnBisabueloPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnBisabueloStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaBisnieto"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_bisnieto" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnBisnietoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_play"/>
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnBisnietoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaCunado"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_cunado" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnCunadoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnCunadoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaEsposo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_esposo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnEsposoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_play"/>
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnEsposoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaHermana"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_hermana" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnHermanaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnHermanaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaHermanastro"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_hermanastro" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnHermanastroPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnHermanastroStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaHermano"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_hermano" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnHermanoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnHermanoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaHijastro"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_hijastro" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnHijastroPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_play"/>
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnHijastroStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaHijo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_hijo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnHijoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnHijoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaMadrastra"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_madrastra" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnMadrastraPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_play"/>
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnMadrastraStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaMama"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_mama" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnMamaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnMamaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaNieto"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_nieto" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnNietoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_play"/>
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnNietoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaNuera"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_nuera" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnNueraPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnNueraStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaPadrastro"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_padrastro" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnPadrastroPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnPadrastroStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaPapa"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_papa" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnPapaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnPapaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaPrimo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_primo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnPrimoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_play"/>
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnPrimoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaSobrino"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_sobrino" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnSobrinoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnSobrinoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaSuegro"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_suegro" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnSuegroPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_play"/>
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnSuegroStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ImaTio"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_tio" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnTioPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnTioStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaYerno"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/familia_yerno" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnYernoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_play"/>
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnYernoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="familia_seleccionar3"
+                            android:src="@drawable/glosario_stop"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

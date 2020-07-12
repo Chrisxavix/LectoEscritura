@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menuprin_fondo_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/menuprin_titulo" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ImaEstudiante"
+                    android:layout_width="190dp"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/menuprin_estudiante1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <Button
+                    android:id="@+id/btnEstudiante"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:textSize="22sp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/boton_menuprin_fondo"
+                    android:onClick="BotonEstudiante"
+                    android:text="USUARIO"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ImaDocente"
+                    android:layout_width="170dp"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/menuprin_docente2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <Button
+                    android:id="@+id/btnDocente"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:textSize="22sp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/boton_menuprin_fondo"
+                    android:onClick="BotonDocente"
+                    android:text="DOCENTE"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ImaSalir"
+                    android:layout_width="170dp"
+                    android:layout_height="90dp"
+                    app:srcCompat="@drawable/menuprin_salir3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <Button
+                    android:id="@+id/btnSalir"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:textSize="22sp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/boton_menuprin_fondo"
+                    android:onClick="BotonSalir"
+                    android:text="SALIR"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

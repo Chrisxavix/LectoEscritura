@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unidad_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Unidad.Unidad1.Uni1Lite2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="EL TEATRO Y SUS ORÍGENES"
+        android:textColor="#6D6619"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actividades a desarrollar"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="#036D45"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+
+            <!-- EJERCICIO 1 -->
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="1) Marque Verdadero si el texto es correcto o de lo contrario marque Falso."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="La comedia y la tragedia son los subgéneros dramáticos menos significativos."/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginVertical="7dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L02Eje01_op1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Verdadero"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L02Eje01_op2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Falso"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite02_Eje01"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_morado"
+                android:onClick="Uni01Lite02Eje01"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite02_Eje01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+            <!-- EJERCICIO 2 -->
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="2) Elegir la opción correcta."/>
+
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni1lite2_escena" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="De acuerdo a la imagen que representa un teatro, ¿Qué escena es?"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L02Eje02_op1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="Escena de amor." />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L02Eje02_op2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Escena de terror."
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L02Eje02_op3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="Escena de batalla." />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite02_Eje02"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_morado"
+                android:onClick="Uni01Lite02Eje02"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite02_Eje02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+            <!-- EJERCICIO 3 -->
+
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="3) Elija y escriba una opción."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   religioso   |   romano   |   griego"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="El teatro occidental se desarrolló a partir del teatro"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni01Lite02_Ingreso01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="10"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite02_Eje03"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_morado"
+                android:onClick="Uni01Lite02Eje03"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite02_Eje03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+            <!-- EJERCICIO 4 -->
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="4) Elija y escriba una opción."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   Teatro   |   recorrido   |   teatro"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="En los siglos XVI y XVII se desarrolló el"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni01Lite02_Ingreso02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="10"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="moderno."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite02_Eje04"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_morado"
+                android:onClick="Uni01Lite02Eje04"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite02_Eje04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+            <!-- EJERCICIO 5 -->
+
+
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="5) “El congreso de los ratones”, leer y responder las preguntas."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B91EB9"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:text="El congreso de los ratones" />
+
+            <ImageView
+                android:id="@+id/IMAUni01RatoGa"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni1lite2_ratonga" />
+
+            <!--       ________CUENTO_______        -->
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Había una vez una familia de ratones que vivía en la despensa de una casa, pero temiendo siempre los ataques de un enorme gato, los ratones no querían salir. Ya fuera de día o de noche este terrible enemigo los tenía vigilados."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Un buen día decidieron poner fin al problema, por lo que celebraron una asamblea a petición del jefe de los ratones, que era el más viejo de todos."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="El jefe de los ratones dijo a los presentes:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- He mandado reunir para que entre todos encontremos una solución. ¡No podemos vivir así!"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- ¡Pido la palabra! - Dijo un ratoncillo muy atento - Atemos un cascabel al gato, y así sabremos en todo momento por dónde anda. El sonido nos pondrá en alerta y podremos escapar a tiempo."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Tan interesante propuesta fue aceptada por todos los roedores entre grandes aplausos y felicidad. Con el cascabel estarían salvados, porque su campanilleo avisaría de la llegada del enemigo con el tiempo para ponerse a salvo."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- ¡Silencio! – Gritó el ratón jefe, para luego decir: Queda pendiente una cuestión importante: ¿Quién de todos le pondrá el cascabel al gato?"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Al oír esto, los ratoncitos se quedaron repentinamente callados, muy callados, porque no podían contestar a aquella pregunta. De pronto todos comenzaron a sentir miedo. Y todos, absolutamente todos, corrieron de nuevo a sus cuevas, hambrientos y tristes."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="El ratón jefe dijo: Es más fácil proponer ideas que llevarlas a cabo."/>
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="a) Elija y escriba una opción, ¿A quién querían ponerle un cascabel?"/>
+
+            <ImageView
+                android:id="@+id/IMAUni01Gato"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni1lite2_gato" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   ratón   |   perro   |   gato"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="Querían ponerle un cascabel al"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni01Lite02_Ingreso03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="6"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite02_Eje05a"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_morado"
+                android:onClick="Uni01Lite02Eje05a"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite02_Eje05a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="b) Elija y escriba una opción, ¿Quién propuso la idea del cascabel?"/>
+
+            <ImageView
+                android:id="@+id/IMAUni01Raton"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni1lite2_raton" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   el ratón   |   ratón   |   el gato"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="Propuso la idea"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni01Lite02_Ingreso04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="9"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite02_Eje05b"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_morado"
+                android:onClick="Uni01Lite02Eje05b"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite02_Eje05b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

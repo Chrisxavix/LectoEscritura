@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unidad_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Unidad.Unidad1.Uni1Lite3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="EL INFORME"
+        android:textColor="#6D6619"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actividades a desarrollar"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="#036D45"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+
+            <!-- EJERCICIO 1 -->
+
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="1) Selecciones dos características del informe."/>
+
+            <CheckBox
+                android:id="@+id/cbxUni01L03Eje01_op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introducción." />
+
+            <CheckBox
+                android:id="@+id/cbxUni01L03Eje01_op2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Foto." />
+
+            <CheckBox
+                android:id="@+id/cbxUni01L03Eje01_op3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conclusiones." />
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite03_Eje01"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Uni01Lite03Eje01"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite03_Eje01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+            <!-- EJERCICIO 2 -->
+
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="2) Elegir la opción correcta."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="Un informe es un tipo de texto que consigna una información determinada, de forma concreta y resumida, con el objetivo de:"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L03Eje02_op1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="Eliminar la información de una tercera persona." />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L03Eje02_op2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="Pasar la información a un tercer informe." />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L03Eje02_op3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="Pasar la información a una tercera persona." />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite03_Eje02"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Uni01Lite03Eje02"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite03_Eje02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+            <!-- EJERCICIO 3 -->
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="3) Marque Verdadero si el texto es correcto o de lo contrario marque Falso."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="Existen tipos de informe según las características textuales, que son: Descriptivo analítico, expositivo y persuasivo."/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginVertical="7dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L03Eje03_op1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Verdadero"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L03Eje03_op2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Falso"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite03_Eje03"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Uni01Lite03Eje03"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite03_Eje03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+            <!-- EJERCICIO 4 -->
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="4) “La lechera”, leer y responder las preguntas."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B91EB9"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:text="La lechera" />
+
+            <ImageView
+                android:id="@+id/IMAUni01VacaLeche"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni1lite3_vacaleche" />
+
+            <!--       ________CUENTO_______        -->
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="La hija de un granjero llevaba un recipiente lleno de leche a vender al pueblo, y empezó a hacer planes futuros:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- Cuando venda esta leche, compraré trescientos huevos. Los huevos, descartando los que no nazcan, me darán al menos doscientos pollos."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Los pollos estarán listos para mercadearlos cuando los precios de ellos estén en lo más alto, de modo que para fin de año tendré suficiente dinero para comprarme el mejor vestido para asistir a las fiestas."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Cuando esté en el baile todos los muchachos me pretenderán, y yo los valoraré uno a uno."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Pero en ese momento tropezó con una piedra, cayendo junto con la vasija de leche al suelo, regando su contenido."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Y así todos sus planes acabaron en un instante."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Moraleja: No anheles impaciente el bien futuro, mira que ni el presente está seguro."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="a) Elija y escriba una opción, ¿Para qué quería comprar un vestido la hija del lechero?"/>
+
+            <ImageView
+                android:id="@+id/IMAUni01Fiesta"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni1lite3_fiesta" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   reunión   |   Fiesta   |   fiesta"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="Quería comprar un vestido para la"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni01Lite03_Ingreso01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="8"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite03_Eje04a"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Uni01Lite03Eje04a"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite03_Eje04a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="b) Elija y escriba una opción, al tropezarse la niña, ¿Qué se le regó?"/>
+
+            <ImageView
+                android:id="@+id/IMAUni01Leche"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni1lite3_leche" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:  la leche   |   leche   |   agua"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="Se regó"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni01Lite03_Ingreso02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="9"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite03_Eje04b"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Uni01Lite03Eje04b"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite03_Eje04b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

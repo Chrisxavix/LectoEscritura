@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unidad_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Unidad.Contenido.Adjetivo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ADJETIVOS"
+        android:textColor="#1C5CF7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Los adjetivos son palabras que denotan los atributos o cualidades de un sustantivo. Se clasifican en calificativos, relacionales, adverbiales y sustantivados."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adjetivos calificativos"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#090808"
+                android:layout_marginVertical="5dp"
+                android:text="Los adjetivos calificativos asignan cualidades de los sustantivos que pueden ser tanto propiedades físicas (color, tamaño, etc.) como abstractas o estados mentales (estado de ánimo, rasgos del carácter, etc.)."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_color4="#E60F09"
+                app:clt_color5="#0A0A0A"
+                app:clt_txt1="Tu auto "
+                app:clt_txt2="rojo "
+                app:clt_txt3="es "
+                app:clt_txt4="increíble"
+                app:clt_txt5="."
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Tus abuelos son muy "
+                app:clt_txt2="alegres"
+                app:clt_txt3="."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/adjetivo_01" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   negro   |   blanco   |   rojo"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El carro"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtAdjetivoIngreso01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="7"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="es de Juan."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAdjetivoVeri01"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="AdjetivoVeri01"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtAdjetivoRes01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/adjetivo_02" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   feliz   |   triste   |   llorar"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="La persona"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtAdjetivoIngreso02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="7"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="es un amigo."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAdjetivoVeri02"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="AdjetivoVeri02"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtAdjetivoRes02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adjetivos relacionales"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#090808"
+                android:layout_marginVertical="5dp"
+                android:text="Los adjetivos relacionales expresan un rasgo del sustantivo al que acompañan que permite clasificarlo en una cierta categoría."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Hubo faltas de "
+                app:clt_txt2="ortografía"
+                app:clt_txt3=" en la carta. (reglas ortográficas)"
+                />
+
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Es una cuchara "
+                app:clt_txt2="brillante"
+                app:clt_txt3=". (brillos)"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/adjetivo_03" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   familiar   |   trabajo   |   escolar"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juan está en una reunión de"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtAdjetivoIngreso03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="9"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=". (labores)"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAdjetivoVeri03"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="AdjetivoVeri03"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtAdjetivoRes03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/adjetivo_04" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   feliz   |   peruano   |   mestizo"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mi amigo"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtAdjetivoIngreso04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="8"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=". (nacionalidad)"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAdjetivoVeri04"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="AdjetivoVeri04"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtAdjetivoRes04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adjetivos adverbiales"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#090808"
+                android:layout_marginVertical="5dp"
+                android:text="Los adjetivos adverbiales asignan nociones temporales (actual, bienal, presente, futuro, frecuente) o modales (probable, seguro, presunto, supuesto)."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="El "
+                app:clt_txt2="actual "
+                app:clt_txt3="presidente se llama Lenin Moreno."
+                />
+
+
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="El "
+                app:clt_txt2="supuesto "
+                app:clt_txt3="celular es nuevo."
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/adjetivo_05" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   Posible   |   posible   |   seguro"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Un"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtAdjetivoIngreso05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="8"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="amigo volverá al país."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAdjetivoVeri05"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="AdjetivoVeri05"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtAdjetivoRes05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/adjetivo_06" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   Verdadera   |   verdadera   |   tristes"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Una"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtAdjetivoIngreso06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="10"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="historia de amor fue Romeo y Julieta. "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAdjetivoVeri06"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="AdjetivoVeri06"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtAdjetivoRes06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adjetivos sustantivados"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#090808"
+                android:layout_marginVertical="5dp"
+                android:text="Los adjetivos sustantivados son adjetivos que en determinados enunciados funcionan como sustantivos. Suelen ir acompañados del artículo que acompañaría al sustantivo. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="¿Cuál es tú coche?" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="El "
+                app:clt_txt2="amarillo"
+                app:clt_txt3="."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="5sp"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="¿Quién ganó la carrera? " />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="El "
+                app:clt_txt2="negro"
+                app:clt_txt3=" ganó la carrera."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/adjetivo_07" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   verde   |   amarillo   |   negro"/>
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="¿Cuál el auto más grande?" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtAdjetivoIngreso07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="9"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAdjetivoVeri07"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="AdjetivoVeri07"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtAdjetivoRes07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/adjetivo_08" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   pequeño   |   Pequeño   |   PEQUEÑO "/>
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="¿Qué gatito te gusta más?" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtAdjetivoIngreso08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="8"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAdjetivoVeri08"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="AdjetivoVeri08"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtAdjetivoRes08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

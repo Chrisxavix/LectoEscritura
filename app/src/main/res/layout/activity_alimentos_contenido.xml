@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/glosario_fondo"
+    tools:context=".Menu_Estudiante.Glosario.Alimentos.alimentos_contenido">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/glosario_alimentos" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- INICIO  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaArroz"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_arroz" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnArrozPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnArrozStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:enabled="false"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_stop"
+                            tools:visibility="visible" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaBolon"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_bolon" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnBolonPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnBolonStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaCafe"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_cafe" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnCafePlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnCafeStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaCaldo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_caldo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnCaldoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnCaldoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaChocolate"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_chocolate" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnChocolatePlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnChocolateStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaEmpanada"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_empanada" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnEmpanadaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnEmpanadaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaEncebollado"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_encebollado" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnEncebolladoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnEncebolladoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaEspumilla"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_espumlla" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnEspumillaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnEspumillaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaFritada"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_fritada" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnFritadaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnFritadaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaGalleta"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_galleta" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnGalletaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnGalletaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaGelatina"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_gelatina" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnGelatinaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnGelatinaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaHamburguesa"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_hamburguesa" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnHamburguesaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnHamburguesaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaHelado"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_helado" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnHeladoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnHeladoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaHornado"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_hornado" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnHornadoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnHornadoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaJugo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_jugo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnJugoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnJugoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaLeche"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_leche" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnLechePlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnLecheStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaPizza"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_pizza" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnPizzaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnPizzaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaSalchipapa"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_salchipapa" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnSalchipapaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnSalchipapaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaVerdura"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/alimentos_verdura" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnVerduraPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnVerduraStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="alimentos_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/transparente" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

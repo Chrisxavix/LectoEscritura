@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/evaluacion_fondo"
+    android:orientation="vertical"
+    tools:context=".Fragmentos.Fragmento_Evaluacion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:src="@drawable/evaluacion_icono" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#9312C4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="En esta sección permite al estudiante medir el grado de comprensión que tiene con la LectoEscritura en relación a los contenidos de las unidades del libro." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:textAlignment="center"
+                android:textColor="#C41250"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="Es necesario realizar la simulación para tener un contexto claro de cómo funciona." />
+
+            <ImageButton
+                android:id="@+id/btnsimulacion"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_evaluacion"
+                android:src="@drawable/evaluacion_simu" />
+
+            <ImageButton
+                android:id="@+id/btnevaluacion1"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_evaluacion"
+                android:src="@drawable/evaluacion_unidad1" />
+
+            <ImageButton
+                android:id="@+id/btnevaluacion2"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_evaluacion"
+                android:src="@drawable/evaluacion_unidad2" />
+
+            <ImageButton
+                android:id="@+id/btnevaluacion3"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_evaluacion"
+                android:src="@drawable/evaluacion_unidad3" />
+
+            <ImageButton
+                android:id="@+id/btnevaluacion4"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_evaluacion"
+                android:src="@drawable/evaluacion_unidad4" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

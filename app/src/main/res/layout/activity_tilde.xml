@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unidad_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Unidad.Contenido.Tilde">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TILDES"
+        android:textColor="#1C5CF7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Se debe tomar en cuentas las posiciones del acento en la palabra para las siguientes reglas."/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Imagen de acentos:"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/tilde_01" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agudas"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#090808"
+                android:layout_marginVertical="5dp"
+                android:text="Son aquellas que llevan acento en la última sílaba. Llevan tilde las palabras agudas terminadas en “n”, “s” o vocal. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Mel"
+                app:clt_txt2="ó"
+                app:clt_txt3="n"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Adem"
+                app:clt_txt2="á"
+                app:clt_txt3="s"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_txt1="Arregl"
+                app:clt_txt2="ó"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplos prácticos:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/tilde_02" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   cajón   |   cájon   |   Cajón"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="En el"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtTildeIngreso01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="6"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="se guarda los libros."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTildeVeri01"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="TildeVeri01"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtTildeRes01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/tilde_03" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   sofá   |   Sofá   |   sófa"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtTildeIngreso02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="5"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="es de color amarillo."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTildeVeri02"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="TildeVeri02"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtTildeRes02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Graves"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#090808"
+                android:layout_marginVertical="5dp"
+                android:text="Son aquellas que llevan acento en la penúltima sílaba. Llevan tilde las palabras graves que no terminan en “n”, “s” o vocal."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#E60F09"
+                app:clt_color2="#0A0A0A"
+                app:clt_txt1="Á"
+                app:clt_txt2="lbum"
+                />
+
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="M"
+                app:clt_txt2="á"
+                app:clt_txt3="rtir"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="F"
+                app:clt_txt2="á"
+                app:clt_txt3="cil"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplos prácticos:" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tilde_04" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   árbol   |   arból   |   ARBOL"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtTildeIngreso03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="6"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="de manzana es grande."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTildeVeri03"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="TildeVeri03"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtTildeRes03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/tilde_05" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   lapíz   |   lápiz   |   lapiz"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtTildeIngreso04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="6"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="está roto."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTildeVeri04"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="TildeVeri04"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtTildeRes04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esdrújulas"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#090808"
+                android:layout_marginVertical="5dp"
+                android:text="Son aquellas que llevan acento en la antepenúltima sílaba."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="May"
+                app:clt_txt2="ú"
+                app:clt_txt3="scula"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Ortogr"
+                app:clt_txt2="á"
+                app:clt_txt3="fico"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="C"
+                app:clt_txt2="é"
+                app:clt_txt3="lula"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplos prácticos:" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tilde_06" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   pájaro   |   Pájaro   |   pajaró"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtTildeIngreso05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="7"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="canta en la mañana."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTildeVeri05"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="TildeVeri05"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtTildeRes05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/tilde_07" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   teléfono   |   telefóno   |   Teléfono"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtTildeIngreso06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="9"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="es un Samsung. "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTildeVeri06"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="TildeVeri06"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtTildeRes06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sobreesdrújulas"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#090808"
+                android:layout_marginVertical="5dp"
+                android:text="Son aquellas que llevan acento en la tras antepenúltima sílaba."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="D"
+                app:clt_txt2="í"
+                app:clt_txt3="gamelo"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="C"
+                app:clt_txt2="ó"
+                app:clt_txt3="metelo"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="In"
+                app:clt_txt2="ú"
+                app:clt_txt3="tilmente"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplos prácticos:" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tilde_08" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   rapidaménte   |   rápidamente   |   rapídamente"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juan se recupera"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtTildeIngreso07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="12"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="de la cirugía."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTildeVeri07"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="TildeVeri07"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtTildeRes07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/tilde_09" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   Pruébatelo   |   pruébatelo   |   pruebatélo"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtTildeIngreso08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="11"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="antes de comprar la ropa."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTildeVeri08"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="TildeVeri08"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtTildeRes08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enlace_fondo"
+    android:orientation="vertical"
+    tools:context=".Fragmentos.Fragmento_Enlaces">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/enlace_icono" />
+
+            <TextView
+                android:textColor="#FF1E10A3"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginVertical="10dp"
+                android:text="En esta sección el estudiante accede a un menú de enlaces de internet, estos son ordenados por unidad del libro para un fácil acceso a las actividades de TICs. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ImaUnidad1"
+                    android:layout_width="340dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/boton_enlace"
+                    android:src="@drawable/enlace_unidad1" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"/>
+
+                <ImageButton
+                    android:id="@+id/ImaUnidad2"
+                    android:layout_width="340dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/boton_enlace"
+                    android:src="@drawable/enlace_unidad2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ImaUnidad3"
+                    android:layout_width="340dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/boton_enlace"
+                    android:src="@drawable/enlace_unidad3" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"/>
+
+                <ImageButton
+                    android:id="@+id/ImaUnidad4"
+                    android:layout_width="340dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/boton_enlace"
+                    android:src="@drawable/enlace_unidad4" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

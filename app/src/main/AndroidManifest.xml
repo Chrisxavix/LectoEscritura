@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lectoescritura">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Menu_barra.Cuentas.Instagram"></activity>
+        <activity android:name=".Menu_barra.Cuentas.Twitter" />
+        <activity android:name=".Menu_barra.Cuentas.Facebook" /> <!-- .............VER NOTAS.............. -->
+        <activity android:name=".Menu_Docente.Evaluacion4.Evaluacion4_Final" />
+        <activity android:name=".Menu_Docente.Evaluacion4.Evaluacion4_Pregunta" />
+        <activity android:name=".Menu_Docente.Evaluacion3.Evaluacion3_Pregunta" />
+        <activity android:name=".Menu_Docente.Evaluacion3.Evaluacion3_Final" />
+        <activity android:name=".Menu_Docente.Evaluacion2.Evaluacion2_Pregunta" />
+        <activity android:name=".Menu_Docente.Evaluacion2.Evaluacion2_Final" />
+        <activity android:name=".Menu_Docente.Evaluacion01.Evaluacion1_Final" />
+        <activity android:name=".Menu_Docente.Evaluacion01.Evaluacion1_Pregunta" />
+        <activity android:name=".Menu_Docente.Simulacion.Simulacion_Pregunta" />
+        <activity android:name=".Menu_Docente.Simulacion.Simulacion_Final" /> <!-- .............VER NOTAS.............. -->
+        <!-- .............MENU DOCENTE.............. -->
+        <activity android:name=".Menu_Docente.Menu.Docente_Menu" />
+        <activity android:name=".Menu_Docente.Menu.Docente_Logueo" /> <!-- .............MENU DOCENTE.............. -->
+        <!-- .............EVALUACION SIMULACION.............. -->
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_simu10" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_simu09" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_simu08" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_simu07" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_simu06" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_simu05" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_simu04" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_simu03" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_simu02" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_simu01" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Simulacion.eval_menu_simulacion" /> <!-- .............EVALUACION SIMULACION.............. -->
+        <!-- .............EVALUACION 1.............. -->
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua10" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua09" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua08" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua07" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua06" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua05" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua04" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua03" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua02" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua01" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_menu_evaluacion1" /> <!-- .............EVALUACION 1.............. -->
+        <!-- .............EVALUACION 2.............. -->
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua210" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua209" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua208" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua207" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua206" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua205" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua204" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua203" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua202" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua201" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_menu_evaluacion2" /> <!-- .............EVALUACION 2.............. -->
+        <!-- .............EVALUACION 3.............. -->
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_evalua310" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_evalua309" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_evalua308" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_evalua307" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_evalua306" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_evalua305" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_evalua304" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_evalua303" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_evalua302" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_evalua301" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion3.eval_menu_evaluacion3" /> <!-- .............EVALUACION 3.............. -->
+        <!-- .............EVALUACION 4.............. -->
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_evalua410" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_evalua409" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_evalua408" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_evalua407" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_evalua406" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_evalua405" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_evalua404" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_evalua403" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_evalua402" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_evalua401" />
+        <activity android:name=".Menu_Estudiante.Evaluacion.Evaluacion4.eval_menu_evaluacion4" /> <!-- .............EVALUACION 4.............. -->
+        <!-- .............UNIDAD UNIDAD 1.............. -->
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad1.Uni1Lite6" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad1.Uni1Lite5" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad1.Uni1Lite4" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad1.Uni1Lite3" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad1.Uni1Lite2" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad1.Uni1Lite1" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad1.unidad_munidad1" /> <!-- .............UNIDAD UNIDAD 1.............. -->
+        <!-- .............UNIDAD UNIDAD 2.............. -->
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad2.Uni2Lite5" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad2.Uni2Lite4" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad2.Uni2Lite3" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad2.Uni2Lite2" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad2.Uni2Lite1" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad2.unidad_munidad2" /> <!-- .............UNIDAD UNIDAD 2.............. -->
+        <!-- .............UNIDAD UNIDAD 3.............. -->
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad3.Uni3Lite4" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad3.Uni3Lite3" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad3.Uni3Lite2" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad3.Uni3Lite1" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad3.unidad_munidad3" /> <!-- .............UNIDAD UNIDAD 3.............. -->
+        <!-- .............UNIDAD UNIDAD 4.............. -->
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad4.Uni4Lite4" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad4.Uni4Lite3" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad4.Uni4Lite2" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad4.Uni4Lite1" />
+        <activity android:name=".Menu_Estudiante.Unidad.Unidad4.unidad_munidad4" /> <!-- .............UNIDAD UNIDAD 4.............. -->
+        <!-- .............UNIDAD CONTENDO.............. -->
+        <activity android:name=".Menu_Estudiante.Unidad.Contenido.SujetoPredicado" />
+        <activity android:name=".Menu_Estudiante.Unidad.Contenido.Verbo" />
+        <activity android:name=".Menu_Estudiante.Unidad.Contenido.Adjetivo" />
+        <activity android:name=".Menu_Estudiante.Unidad.Contenido.Articulo" />
+        <activity android:name=".Menu_Estudiante.Unidad.Contenido.Pronombres" />
+        <activity android:name=".Menu_Estudiante.Unidad.Contenido.Tilde" />
+        <activity android:name=".Menu_Estudiante.Unidad.Contenido.Mayuscula" />
+        <activity android:name=".Menu_Estudiante.Unidad.Contenido.unidad_mcontenido" /> <!-- .............UNIDAD CONTENDO.............. -->
+        <!-- .............GLOSARIO.............. -->
+        <activity android:name=".Menu_Estudiante.Glosario.Preguntas.preguntas_contenido" />
+        <activity android:name=".Menu_Estudiante.Glosario.Familia.familia_contenido" />
+        <activity android:name=".Menu_Estudiante.Glosario.Frutas.frutas_contenido" />
+        <activity android:name=".Menu_Estudiante.Glosario.Deportes.deportes_contenido" />
+        <activity android:name=".Menu_Estudiante.Glosario.Cordialidades.cordialidades_contenido" />
+        <activity android:name=".Menu_Estudiante.Glosario.Animales.animales_contenido" />
+        <activity android:name=".Menu_Estudiante.Glosario.Alimentos.alimentos_contenido" />
+        <activity android:name=".Menu_Estudiante.Glosario.Colores.colores_contenido" />
+        <activity android:name=".Menu_Estudiante.Glosario.Meses.meses_contenido" />
+        <activity android:name=".Menu_Estudiante.Glosario.Dias.dias_contenido" /> <!-- .............GLOSARIO.............. -->
+        <!-- .............ENLACES UNIDAD 1.............. -->
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlaceU1_10"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlaceU1_09"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlaceU1_08"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlaceU1_07"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlaceU1_06"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlaceU1_05"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlaceU1_04"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlaceU1_03"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlaceU1_02"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlaceU1_01"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".Menu_Estudiante.Enlaces.Unidad_1.enlace_menu_unidad1" /> <!-- .............ENLACES UNIDAD 1.............. -->
+        <!-- .............ENLACES UNIDAD 2.............. -->
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_2.enlaceU2_07"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_2.enlaceU2_06"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_2.enlaceU2_05"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_2.enlaceU2_04"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_2.enlaceU2_03"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_2.enlaceU2_02"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_2.enlaceU2_01"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".Menu_Estudiante.Enlaces.Unidad_2.enlace_menu_unidad2" /> <!-- .............ENLACES UNIDAD 2.............. -->
+        <!-- .............ENLACES UNIDAD 3.............. -->
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_3.enlaceU3_09"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_3.enlaceU3_08"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_3.enlaceU3_07"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_3.enlaceU3_06"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_3.enlaceU3_05"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_3.enlaceU3_04"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_3.enlaceU3_03"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_3.enlaceU3_02"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_3.enlaceU3_01"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".Menu_Estudiante.Enlaces.Unidad_3.enlace_menu_unidad3" /> <!-- .............ENLACES UNIDAD 3.............. -->
+        <!-- .............ENLACES UNIDAD 4.............. -->
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_12"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_11"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_10"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_09"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_08"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_07"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_06"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_05"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_04"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_03"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_02"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_01"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".Menu_Estudiante.Enlaces.Unidad_4.enlace_menu_unidad4" /> <!-- .............ENLACES UNIDAD 4.............. -->
+        <!-- .............BARRA DESPLEGABLE.............. -->
+        <activity android:name=".Menu_barra.Creditos" />
+        <activity android:name=".Menu_barra.Informacion" /> <!-- .............BARRA DESPLEGABLE.............. -->
+        <!-- .............MENU FRAGMENTOS.............. -->
+        <activity android:name=".Fragmentos.Menu_fragmentos" /> <!-- .............MENU FRAGMENTOS.............. -->
+        <!-- .............SPLASH.............. -->
+        <activity
+            android:name=".Splash.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- .............SPLASH.............. -->
+        <!-- .............MENU INICIO.............. -->
+        <activity android:name=".MainActivity" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

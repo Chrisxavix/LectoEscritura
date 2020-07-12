@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/glosario_fondo"
+    android:orientation="vertical"
+    tools:context=".Fragmentos.Fragmento_Glosario">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:src="@drawable/glosario_icono" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginVertical="20dp"
+                android:textAlignment="center"
+                android:textColor="#026080"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="En esta sección el estudiante tiene un menú desplegable con diferentes temáticas del Lenguaje de Señas Ecuatoriano, cada ítem contiene contenido multimedia que le permite saber cómo se realiza la seña en caso de que se desconozca. " />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnAlimentos"
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_glosario"
+                    android:src="@drawable/glosario_alimentos" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnAnimales"
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_glosario"
+                    android:src="@drawable/glosario_animales" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnColores"
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_glosario"
+                    android:src="@drawable/glosario_colores" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnCordialidades"
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_glosario"
+                    android:src="@drawable/glosario_cordialidades" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnDeportes"
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_glosario"
+                    android:src="@drawable/glosario_deportes" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnDias"
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_glosario"
+                    android:src="@drawable/glosario_dias" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnFamilia"
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_glosario"
+                    android:src="@drawable/glosario_familia" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnFrutas"
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_glosario"
+                    android:src="@drawable/glosario_frutas" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnMeses"
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_glosario"
+                    android:src="@drawable/glosario_meses" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnPreguntas"
+                    android:layout_width="160dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_glosario"
+                    android:src="@drawable/glosario_preguntas" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

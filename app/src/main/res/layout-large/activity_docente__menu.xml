@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/enlace_fondo"
+    tools:context=".Menu_Docente.Menu.Docente_Menu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/evaluacion_simu" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSimu1"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_color_celeste"
+                    android:onClick="Eleccion_notas"
+                    android:text="Ver por Preguntas"
+                    android:textAllCaps="false"
+                    android:textSize="17sp"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btnSimu2"
+                    android:layout_width="190dp"
+                    android:textSize="17sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_color_celeste"
+                    android:onClick="Eleccion_notas"
+                    android:text="Ver Nota Final"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSimuBorrar"
+                android:layout_width="190dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:layout_marginVertical="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_rojo"
+                android:onClick="Eleccion_notas"
+                android:text="Borrar datos de simulación"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/evaluacion_unidad1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnEval1a"
+                    android:layout_width="190dp"
+                    android:textSize="17sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_color_amarillo"
+                    android:onClick="Eleccion_notas"
+                    android:text="Ver por Preguntas"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btnEval1b"
+                    android:layout_width="190dp"
+                    android:textSize="17sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_color_amarillo"
+                    android:onClick="Eleccion_notas"
+                    android:text="Ver Nota Final"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnEval1Borrar"
+                android:layout_width="190dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:layout_marginVertical="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_rojo"
+                android:onClick="Eleccion_notas"
+                android:text="Borrar datos de la evaluación 1"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/evaluacion_unidad2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnEval2a"
+                    android:layout_width="190dp"
+                    android:textSize="17sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_color_morado"
+                    android:onClick="Eleccion_notas"
+                    android:text="Ver por Preguntas"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btnEval2b"
+                    android:layout_width="190dp"
+                    android:textSize="17sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_color_morado"
+                    android:onClick="Eleccion_notas"
+                    android:text="Ver Nota Final"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnEval2Borrar"
+                android:layout_width="190dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="15dp"
+                android:background="@drawable/boton_color_rojo"
+                android:onClick="Eleccion_notas"
+                android:text="Borrar datos de la evaluación 2"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/evaluacion_unidad3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnEval3a"
+                    android:layout_width="190dp"
+                    android:textSize="17sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_color_verde"
+                    android:onClick="Eleccion_notas"
+                    android:text="Ver por Preguntas"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btnEval3b"
+                    android:layout_width="190dp"
+                    android:textSize="17sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_color_verde"
+                    android:onClick="Eleccion_notas"
+                    android:text="Ver Nota Final"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnEval3Borrar"
+                android:layout_width="190dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="15dp"
+                android:background="@drawable/boton_color_rojo"
+                android:onClick="Eleccion_notas"
+                android:text="Borrar datos de la evaluación 3"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/evaluacion_unidad4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnEval4a"
+                    android:layout_width="190dp"
+                    android:textSize="17sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_color_naranja"
+                    android:onClick="Eleccion_notas"
+                    android:text="Ver por Preguntas"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/btnEval4b"
+                    android:layout_width="190dp"
+                    android:textSize="17sp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_color_naranja"
+                    android:onClick="Eleccion_notas"
+                    android:text="Ver Nota Final"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/boton_menuprin_letras" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnEval4Borrar"
+                android:layout_width="190dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="15dp"
+                android:background="@drawable/boton_color_rojo"
+                android:onClick="Eleccion_notas"
+                android:text="Borrar datos de la evaluación 4"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

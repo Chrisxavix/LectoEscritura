@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/glosario_fondo"
+    tools:context=".Menu_Estudiante.Glosario.Colores.colores_contenido">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/glosario_colores" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaAmarillo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_amarillo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnAmarilloPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnAmarilloStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaAnaranjado"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_anaranjado" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnAnaranjadoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnAnaranjadoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaAzul"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_azul" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnAzulPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnAzulStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaBlanco"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_blanco" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnBlancoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnBlancoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaCafe"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_cafe" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnCafePlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnCafeStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaCeleste"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_celeste" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnCelestePlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnCelesteStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaMorado"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_morado" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnMoradoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnMoradoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaNegro"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_negro" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnNegroPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnNegroStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaPlomo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_plomo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnPlomoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnPlomoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaRojo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_rojo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnRojoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnRojoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaRosado"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_rosado" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnRosadoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnRosadoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaVerde"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/color_verde" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnVerdePlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnVerdeStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="colores_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

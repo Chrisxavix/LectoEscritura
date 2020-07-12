@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unidad_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Unidad.Contenido.Verbo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="VERBOS"
+        android:textColor="#1C5CF7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Los verbos son palabras que expresan la acción que ejecuta el sujeto. Los verbos son el núcleo del predicado. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verbo infinitivo"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#090808"
+                android:layout_marginVertical="5dp"
+                android:text="Todos los verbos en infinitivo terminan en “ar”, “er” o “ir”."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Cant"
+                app:clt_txt2="ar"
+                app:clt_txt3="."
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Viv"
+                app:clt_txt2="ir"
+                app:clt_txt3="."
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Com"
+                app:clt_txt2="er"
+                app:clt_txt3="."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/verbo_01" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   Jugar   |   jugar   |   comer"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El deporte favorito de Juan es "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtVerboIngreso01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="6"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fútbol."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVerboVeri01"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="VerboVeri01"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtVerboRes01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/verbo_02" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   entrenar   |   Entrenar   |   jugar"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pedro va a"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtVerboIngreso02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="9"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="en el gimnasio."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVerboVeri02"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="VerboVeri02"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtVerboRes02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verbo gerundio"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#090808"
+                android:layout_marginVertical="5dp"
+                android:text="Todos los verbos en gerundio terminan en “ando” o “iendo”."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Hac"
+                app:clt_txt2="iendo"
+                app:clt_txt3="."
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Camin"
+                app:clt_txt2="ando"
+                app:clt_txt3="."
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Com"
+                app:clt_txt2="iendo"
+                app:clt_txt3="."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/verbo_03" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   bailar   |   bailando   |   bailó"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chris y Daniela están"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtVerboIngreso03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="9"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVerboVeri03"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="VerboVeri03"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtVerboRes03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/verbo_04" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   Durmiendo   |   durmiendo   |   dormir"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ella prefiere seguir"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtVerboIngreso04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="10"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVerboVeri04"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="VerboVeri04"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtVerboRes04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

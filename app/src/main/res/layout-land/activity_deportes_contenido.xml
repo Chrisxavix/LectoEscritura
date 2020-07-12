@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/glosario_fondo"
+    tools:context=".Menu_Estudiante.Glosario.Deportes.deportes_contenido">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/glosario_deportes" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaAtletismo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/deporte_atletismo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnAtletismoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnAtletismoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaBaloncesto"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/deporte_baloncesto" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnBaloncestoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnBaloncestoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaBoxeo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/deporte_boxeo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnBoxeoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnBoxeoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaCiclismo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/deporte_ciclismo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnCiclismoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnCiclismoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaFutbol"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/deporte_futbol" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnFutbolPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnFutbolStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaIndorfutbol"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/deporte_indorfutbol" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnIndorfutbolPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnIndorfutbolStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaNatacion"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/deporte_natacion" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnNatacionPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnNatacionStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaTenis"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/deporte_tenis" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnTenisPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnTenisStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaVoleibol"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/deporte_voleibol" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnVoleibolPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnVoleibolStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="deporte_seleccionar"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

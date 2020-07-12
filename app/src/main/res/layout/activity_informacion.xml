@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/barra_fondovertical"
+    tools:context=".Menu_barra.Informacion">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="INFORMACIÓN APP"
+        android:textColor="#A80409"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="El desarrollo de este aplicativo móvil de enseñanza - aprendizaje busca dar un enfoque a la LectoEscritura en relación al libro de Lengua y Literatura del ajuste curricular de 2016, aplicado en estudiantes con discapacidad auditiva de Décimo Grado de la Unidad Educativa Especial Claudio Neira Garzón."/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                app:srcCompat="@drawable/barra_libro" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="La LectoEscritura es un proceso de aprendizaje que se basa en la habilidad de leer y escribir siguiendo reglas establecidas en la educación."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0707CA"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="El aplicativo cuenta con secciones como:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UNIDADES"
+                android:textColor="#A80409"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="En esta sección el estudiante cuenta con un menú interactivo, el mismo que consta de:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contenidos:"
+                android:textColor="#9D04A8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Contiene siete reglas de escritura, entre ellas el uso correcto de mayúsculas, tildes, pronombres, artículos, adjetivos, verbos y sujeto + predicado."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unidades 1, 2, 3 y 4: "
+                android:textColor="#9D04A8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Contiene ejercicios de acuerdo a contenidos del libro, como ingreso de palabras, selección de una opción y opciones múltiples, marcar verdadero o falso y lecturas animadas con contenido multimedia del lenguaje de señas con preguntas a responder."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GLOSARIO"
+                android:textColor="#A80409"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="En esta sección el estudiante tiene un menú desplegable con diferentes temáticas del Lenguaje de Señas Ecuatoriano, cada ítem contiene contenido multimedia que le permite saber cómo se realiza la seña en caso de que se desconozca."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENLACES"
+                android:textColor="#A80409"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="En esta sección el estudiante accede a un menú de enlaces de internet, estos son ordenados por unidad del libro para un fácil acceso a las actividades de TICs."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EVALUACIONES"
+                android:textColor="#A80409"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="14sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0B0B"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="En esta sección permite al estudiante medir el grado de comprensión que tiene con la LectoEscritura en relación a los contenidos de las unidades del libro."/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

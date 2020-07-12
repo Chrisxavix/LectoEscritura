@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/glosario_fondo"
+    tools:context=".Menu_Estudiante.Glosario.Frutas.frutas_contenido">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/glosario_frutas" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaCapuli"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_capuli" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnCapuliPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnCapuliStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaCereza"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_cereza" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnCerezaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnCerezaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaChirimoya"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_chirimoya" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnChirimoyaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnChirimoyaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaCiruela"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_ciruela" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnCiruelaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnCiruelaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaCoco"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_coco" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnCocoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnCocoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaDurazno"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_durazno" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnDuraznoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnDuraznoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaGranadilla"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_granadilla" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnGranadillaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnGranadillaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar1"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaHigo"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_higo" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnHigoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnHigoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaLimon"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_limon" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnLimonPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnLimonStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaMandarina"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_mandarina" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnMandarinaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnMandarinaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaMango"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_mango" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnMangoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnMangoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaManzana"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_manzana" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnManzanaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnManzanaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaMaracuya"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_maracuya" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnMaracuyaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnMaracuyaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaMelon"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_melon" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnMelonPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnMelonStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar2"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaNaranja"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_naranja" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnNaranjaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnNaranjaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaOrito"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_orito" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnOritoPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnOritoStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaPera"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_pera" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnPeraPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnPeraStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaSandia"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_sandia" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnSandiaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnSandiaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaTomate"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_tomate" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnTomatePlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnTomateStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaToronja"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_toronja" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnToronjaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnToronjaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ImaUva"
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/frutas_uva" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnUvaPlay"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_play" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageButton
+                            android:id="@+id/btnUvaStop"
+                            android:layout_width="70dp"
+                            android:layout_height="35dp"
+                            android:layout_marginVertical="5dp"
+                            android:background="@drawable/boton_glosario"
+                            android:onClick="frutas_seleccionar3"
+                            android:src="@drawable/glosario_stop" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="175dp"
+                        app:srcCompat="@drawable/transparente" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

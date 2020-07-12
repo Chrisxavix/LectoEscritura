@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/evaluacion_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Evaluacion.Evaluacion1.eval_evalua02">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/evaluacion_unidad1"/>
+
+    <TextView
+        android:id="@+id/textEval1_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#0A0A0A"
+        android:text="Usuario:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <loic.teillard.colortextview.ColorTextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:clt_color1="#0A0A0A"
+        app:clt_color2="#E60F09"
+        app:clt_color3="#0A0A0A"
+        app:clt_txt1="Pregunta: "
+        app:clt_txt2="2"
+        app:clt_txt3="/10"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Selecciones dos características de la escritura."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="5dp"
+                android:text="" />
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/evaluacion1_02" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#750450"
+                android:text="Opciones:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <CheckBox
+                android:id="@+id/cbxEval1Pre02_op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se expresa mediante signos." />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hay presencialidad e interacción." />
+
+            <CheckBox
+                android:id="@+id/cbxEval1Pre02_op3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No hay presencialidad y la interacción está medida por el texto." />
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="30dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Evaluacion1Pregunta02"
+                android:text="Siguiente"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="NoRespondeEvaluacion1Preg02"
+                android:text="No responder"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

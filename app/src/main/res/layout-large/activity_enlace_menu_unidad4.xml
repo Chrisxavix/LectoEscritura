@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enlace_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Enlaces.Unidad_4.enlace_menu_unidad4">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/enlace_unidad4" />
+
+    <ImageView
+        android:id="@+id/ImaEnlaceGif04"
+        android:layout_width="180dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/enlace_04_gif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEnlaceU401"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 185: Deslealtad lingüística"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU402"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 186: Nacionalidades y pueblos del Ecuador"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU403"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 189: Un viaje por las lenguas"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU404"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 193: Cuentos de Gabriel García Márquez"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU405"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 197: Cuentos de Julio Cortázar"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU406"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 199: Historias de Cronopios y de Famas"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU407"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 204: Cuentos de Julio Ramón Ribeyro"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU408"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 205: Cuento Visión de reojo"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU409"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 207: Cuento El otro Borges"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU410"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 217: Liberación animal"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU411"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 226: El alcoholismo"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU412"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="opcion_enlaceU4"
+                android:text="Página 228: Cómo hacer monografías"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

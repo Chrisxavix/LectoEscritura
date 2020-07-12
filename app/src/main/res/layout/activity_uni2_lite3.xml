@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unidad_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Unidad.Unidad2.Uni2Lite3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="EL ENSAYO"
+        android:textColor="#6D6619"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actividades a desarrollar"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="#036D45"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+
+
+            <!-- EJERCICIO 1 -->
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="1) Marque Verdadero si el texto es correcto o de lo contrario marque Falso."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="Un ensayo es un tipo de novela, relativamente amplio, que interpreta o explica un determinado tema humanístico, político, social, cultural, deportivo, etc."/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginVertical="7dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdnUni02L03Eje01_op1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Verdadero"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <RadioButton
+                    android:id="@+id/rdnUni02L03Eje01_op2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Falso"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnVeriUni02Lite03_Eje01"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Uni02Lite03Eje01"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni02Lite03_Eje01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+            <!-- EJERCICIO 2 -->
+
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="2) Selecciones dos propósitos del ensayo:"/>
+
+            <CheckBox
+                android:id="@+id/cbxUni02L03Eje02_op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observar." />
+
+            <CheckBox
+                android:id="@+id/cbxUni02L03Eje02_op2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Informar." />
+
+            <CheckBox
+                android:id="@+id/cbxUni02L03Eje02_op3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Describir." />
+
+            <Button
+                android:id="@+id/btnVeriUni02Lite03_Eje02"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Uni02Lite03Eje02"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni02Lite03_Eje02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+            <!-- EJERCICIO 3 -->
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="3) Marque Verdadero si el texto es correcto o de lo contrario marque Falso."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="Un ensayo argumentativo tiene como objetivo presentar o rebatir un punto de vista con el fin de influir en un receptor."/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginVertical="7dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdnUni02L03Eje03_op1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Verdadero"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <RadioButton
+                    android:id="@+id/rdnUni02L03Eje03_op2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Falso"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnVeriUni02Lite03_Eje03"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Uni02Lite03Eje03"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni02Lite03_Eje03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+
+
+            <!-- EJERCICIO 4 -->
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="4) “El escorpión traicionero”, leer y responder las preguntas."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B91EB9"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:text="El escorpión traicionero" />
+
+            <ImageView
+                android:id="@+id/IMAUni02Escorpion"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni2lite3_escorpion" />
+
+            <!--       ________CUENTO_______        -->
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Una rana estaba descansando a la orilla de un río, cuando ve llegar a un escorpión. La rana se asusta un poco, pero el escorpión se demuestra amigable y le dice:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- Amable rana, ¿podrías ayudarme a cruzar el río llevándome en tu lomo? Te prometo que no te picaré. Si lo hiciera, las dos moriríamos ahogadas."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="La rana duda un momento, pero después se deja convencer por la explicación del escorpión. Así que lo hace montar en su lomo y comienza a nadar para atravesar el río. A mitad de camino, la rana siente un tremendo dolor en el lomo y se da cuenta de que el escorpión la ha picado. Ya sintiendo que las fuerzas la abandonan y la muerte se acerca, dice al escorpión:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- ¿Cómo has podido hacerme esto? ¡Ahora moriremos los dos!"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- No he podido evitarlo, es mi naturaleza- responde el escorpión, mientras se hunde junto con la rana."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Moraleja: No trates de engañarte con alguien creyendo que es o puede ser igual que tú; hay personas que sacarán su maldad sin importarles las consecuencias de sus actos, ni dañarse incluso a sí mismos."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="a) Elija y escriba una opción, ¿Qué hizo la rana al ver al escorpión?"/>
+
+            <ImageView
+                android:id="@+id/IMAUni02Asustar"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni2lite3_asustar" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   asustó   |   alegró   |   fue"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="La rana se"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni02Lite03_Ingreso01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="7"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni02Lite03_Eje04a"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Uni02Lite03Eje04a"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni02Lite03_Eje04a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="b) Elija y escriba una opción, ¿Qué hizo el escorpión?"/>
+
+            <ImageView
+                android:id="@+id/IMAUni02Picar"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni2lite3_picar" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   picó   |   ayudó   |   empujó"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="Le"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni02Lite03_Ingreso02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="7"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a la rana."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni02Lite03_Eje04b"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Uni02Lite03Eje04b"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni02Lite03_Eje04b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

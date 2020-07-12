@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unidad_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Unidad.Contenido.Mayuscula">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="MAYÚSCULAS"
+        android:textColor="#1C5CF7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Reglas importantes para el uso de las letras mayúsculas."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="1) Los nombres propios de personas, animales, ciudades, apellidos y países."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Persona: "
+                app:clt_txt2="M"
+                app:clt_txt3="arlon"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Animal: "
+                app:clt_txt2="T"
+                app:clt_txt3="obby"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="País: "
+                app:clt_txt2="E"
+                app:clt_txt3="cuador"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/mayuscula_01" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   Carlos   |   CARLOS   |   carlos"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El nombre de mi amigo es "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtMayuIngreso01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="7"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnMayuVeri01"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="MayusVeri01"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtMayuRes01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="2) La primera palabra que da comienzo a un texto. "/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color2="#0A0A0A"
+                app:clt_color1="#E60F09"
+                app:clt_txt1="E"
+                app:clt_txt2="l niño se llama Carlos."
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color2="#0A0A0A"
+                app:clt_color1="#E60F09"
+                app:clt_txt1="L"
+                app:clt_txt2="os estudiantes aprenden a escribir. "
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/mayuscula_02" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   EL   |   el   |   El"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/txtMayuIngreso02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:hint="Escriba"
+                    android:textColorHint="#1C5CF7"
+                    android:maxLength="3"
+                    android:inputType="textPersonName" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" carro es de color rojo."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnMayuVeri02"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="MayusVeri02"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtMayuRes02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="3) La palabra que va después de un punto."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="La tarde está nublada. "
+                app:clt_txt2="E"
+                app:clt_txt3="l partido se canceló."
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Pedro viaja en la noche. "
+                app:clt_txt2="L"
+                app:clt_txt3="legará el día lunes."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/mayuscula_03" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   El   |   el   |   EL"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juan tiene dos hermanos."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtMayuIngreso03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:hint="Escriba"
+                    android:textColorHint="#1C5CF7"
+                    android:maxLength="3"
+                    android:inputType="textPersonName" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="menor se llama Pedro. "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnMayuVeri03"
+                android:layout_width="105dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="MayusVeri03"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtMayuRes03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="4) Después de los dos puntos “:” y se trata de una cita o palabra textual."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Dijo Éfeso: "
+                app:clt_txt2="Q"
+                app:clt_txt3="uién nace mortal, camina hacia la muerte."
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_color3="#0A0A0A"
+                app:clt_txt1="Querida Ana: "
+                app:clt_txt2="T"
+                app:clt_txt3="e agradezco mucho tus felicitaciones."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/mayuscula_04" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   Te   |   TE   |   te"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estimada María: "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtMayuIngreso04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:hint="Escriba"
+                    android:textColorHint="#1C5CF7"
+                    android:maxLength="3"
+                    android:inputType="textPersonName" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="saludo muy gustoso."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnMayuVeri04"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="MayusVeri04"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtMayuRes04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="5) Nombres de festividades o divinidades."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#731185"
+                android:text="Ejemplos:" />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#E60F09"
+                app:clt_color2="#0A0A0A"
+                app:clt_color3="#E60F09"
+                app:clt_color4="#0A0A0A"
+                app:clt_txt1="A"
+                app:clt_txt2="ño "
+                app:clt_txt3="N"
+                app:clt_txt4="uevo"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#E60F09"
+                app:clt_color2="#0A0A0A"
+                app:clt_txt1="D"
+                app:clt_txt2="ios"
+                />
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#E60F09"
+                app:clt_color2="#0A0A0A"
+                app:clt_color3="#E60F09"
+                app:clt_color4="#0A0A0A"
+                app:clt_txt1="I"
+                app:clt_txt2="ndependecia de "
+                app:clt_txt3="C"
+                app:clt_txt4="uenca"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#058813"
+                android:layout_marginVertical="5dp"
+                android:text="Ejemplo práctico:" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mayuscula_05" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="5dp"
+                android:text="Elija y escriba una opción:   Navidad   |   navidad   |   NAVIDAD"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="En diciembre se celebra "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtMayuIngreso05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:hint="escriba"
+                    android:textColorHint="#1C5CF7"
+                    android:maxLength="8"
+                    android:inputType="textPersonName" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnMayuVeri05"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="MayusVeri05"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtMayuRes05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

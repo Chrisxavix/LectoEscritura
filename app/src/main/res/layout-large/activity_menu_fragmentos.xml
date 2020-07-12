@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragmentos.Menu_fragmentos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bntUnidades"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/boton_menuprin_fondo"
+            android:onClick="OpcionFragmento"
+            android:text="UNIDADES"
+            android:textColor="@drawable/boton_menuprin_letras"
+            android:textSize="12sp" />
+
+
+        <Button
+            android:id="@+id/btnGlosario"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/boton_menuprin_fondo"
+            android:onClick="OpcionFragmento"
+            android:text="GLOSARIO"
+            android:textColor="@drawable/boton_menuprin_letras"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnEnlaces"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/boton_menuprin_fondo"
+            android:onClick="OpcionFragmento"
+            android:text="ENLACES"
+            android:textColor="@drawable/boton_menuprin_letras"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnEvaluaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/boton_menuprin_fondo"
+            android:onClick="OpcionFragmento"
+            android:text="EVALUACIONES"
+            android:textColor="@drawable/boton_menuprin_letras"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/Contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

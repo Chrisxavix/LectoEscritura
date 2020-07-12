@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enlace_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Enlaces.Unidad_1.enlace_menu_unidad1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/enlace_unidad1" />
+
+    <ImageView
+        android:id="@+id/ImaEnlaceGif01"
+        android:layout_width="180dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/enlace_02_gif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEnlaceU101"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="opcion_enlaceU1"
+                android:text="Página 13: Legua Oral y Escrita"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU102"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="opcion_enlaceU1"
+                android:text="Página 17: Los Mayas"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU103"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="opcion_enlaceU1"
+                android:text="Página 18: La Piedra de Rosetta"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU104"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="opcion_enlaceU1"
+                android:text="Página 29: Descubrir el Personaje"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU105"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="opcion_enlaceU1"
+                android:text="Página 34: El Teatro Isabelino"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU106"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="opcion_enlaceU1"
+                android:text="Página 37: El Sueño de una Noche de Verano"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"/>
+
+            <Button
+                android:id="@+id/btnEnlaceU107"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="opcion_enlaceU1"
+                android:text="Página 43: Diformismo Sexual"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU108"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="opcion_enlaceU1"
+                android:text="Página 45: Lenguas Ancestrales del Ecuador"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU109"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="opcion_enlaceU1"
+                android:text="Página 47: Agresividad de los Seres Humanos"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:id="@+id/btnEnlaceU110"
+                android:layout_width="500dp"
+                android:layout_height="60dp"
+                android:textSize="22sp"
+                android:layout_marginVertical="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="opcion_enlaceU1"
+                android:text="Página 53: Objeto Directo e Indirecto"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

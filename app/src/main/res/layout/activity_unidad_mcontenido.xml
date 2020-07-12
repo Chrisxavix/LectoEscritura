@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unidad_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Unidad.Contenido.unidad_mcontenido">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/unidad_contenidos" />
+
+    <com.codesgood.views.JustifiedTextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:text="Esta sección tiene contenidos básicos para mejorar la escritura, es importante repasar estos temas para poder desenvolverse de buena manera en las Unidades de Estudio."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+    <ImageView
+        android:id="@+id/ImaContenidoGif"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/contenido_gif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnMayuscula"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="opcion_contenido"
+                android:text="Mayúsculas"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnTildes"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="opcion_contenido"
+                android:text="Tildes"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/btnPronombres"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="opcion_contenido"
+                android:text="Pronombres"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/btnArticulos"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="opcion_contenido"
+                android:text="Artículos"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnAdjetivos"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="opcion_contenido"
+                android:text="Adjetivos"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnVerbos"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="opcion_contenido"
+                android:text="Verbos"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnSujetoPredicado"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="opcion_contenido"
+                android:text="Sujeto + Predicado"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="18sp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

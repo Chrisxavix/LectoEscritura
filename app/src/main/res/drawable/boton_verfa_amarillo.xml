@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  boton accionado -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="0.5dp" android:color="#B8710B"/>
+            <solid android:color="#81D695"/>
+        </shape>
+    </item>
+
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="0.5dp" android:color="#B8710B"/>
+            <solid android:color="#81D695"/>
+        </shape>
+    </item>
+    <!--  bordes del botón sin accionar -->
+    <item >
+        <shape android:shape="rectangle">
+            <stroke android:width="0.5dp" android:color="#B8710B"/>
+            <!--  botón sin accionar -->
+            <solid android:color="#F78C8C"/>
+        </shape>
+    </item>
+</selector>
+
+
+
+

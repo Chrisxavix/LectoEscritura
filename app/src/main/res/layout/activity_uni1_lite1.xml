@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unidad_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Unidad.Unidad1.Uni1Lite1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DE LA ORALIDAD A LA ESCRITURA"
+        android:textColor="#6D6619"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actividades a desarrollar"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="#036D45"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+
+
+            <!-- EJERCICIO 1 -->
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="1) Elegir la opción correcta."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="La oralidad es:"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L01Eje01_op1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="La expresión de la palabra hablada." />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L01Eje01_op2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="La expresión de fases históricas." />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L01Eje01_op3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="14sp"
+                    android:text="La transmisión escrita de palabras." />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite01_Eje01"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="Uni01Lite01Eje01"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite01_Eje01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+            <!-- EJERCICIO 2 -->
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="2) Marque Verdadero si el texto es correcto o de lo contrario marque Falso."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:text="Mediante la expresión oral se produce un intercambio de vivencias, historias y relatos entre diferentes personas."/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginVertical="7dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L01Eje02_op1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Verdadero"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <RadioButton
+                    android:id="@+id/rdnUni01L01Eje02_op2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/boton_verfa_amarillo"
+                    android:button="@android:color/transparent"
+                    android:text="Falso"
+                    android:textSize="14sp"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/boton_verfa_letras" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite01_Eje02"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="Uni01Lite01Eje02"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite01_Eje02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+            <!-- EJERCICIO 3 -->
+
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="3) Elija y escriba una opción."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   dividen   |   supervisan   |   complementan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La expresión oral:"
+                android:textColor="#090808"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="Puede ir acompañada de varios aspectos que la"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni01Lite01_Ingreso01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="13"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite01_Eje03"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="Uni01Lite01Eje03"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite01_Eje03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+
+            <!-- EJERCICIO 3 -->
+
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="4) Selecciones dos características de la escritura:"/>
+
+            <CheckBox
+                android:id="@+id/cbxUni01L01Eje04_op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se expresa mediante signos." />
+
+            <CheckBox
+                android:id="@+id/cbxUni01L01Eje04_op2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hay presencialidad e interacción." />
+
+            <CheckBox
+                android:id="@+id/cbxUni01L01Eje04_op3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No hay presencialidad y la interacción está mediada por el texto." />
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite01_Eje04"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="Uni01Lite01Eje04"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite01_Eje04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+
+            <!-- EJERCICIO 5 -->
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="5) “La boda del tío Perico”, leer y responder las preguntas."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B91EB9"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:text="La boda del tío Perico" />
+
+            <ImageView
+                android:id="@+id/IMAUni01Gallo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni1lite1_gallo" />
+
+            <!--       ________CUENTO_______        -->
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Este era un gallo que después de saludar como todas las mañanas a su amigo el sol, echó a andar muy limpio y elegante camino a la boda de su tío Perico."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Por el camino se encontró un montón de basura y se apartó para no ensuciarse. Pero en medio del basurero vio un grano de maíz. El gallo se detuvo y pensó:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- Si no pico pierdo el granito y si pico me mancho el pico y no podré ir a la boda de mi tío Perico. ¿Qué hago?, ¿Pico o no pico?"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Al fin picó, y se ensució el pico. Entonces fue a pedirle a la hierba:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- Hierba, límpiame el pico o no podré ir a la boda de mi tío Perico."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Pero la hierba dijo:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- No quiero."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Entonces, bien bravo, fue a pedirle a la oveja:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- Oveja, cómete la hierba que no quiere limpiarme el pico para ir a la boda de mi tío Perico."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Pero la oveja dijo:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- No quiero."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="El gallo se puso muy, muy bravo y fue a pedirle al perro:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- Perro, muerde a la oveja que no quiere comerse la hierba que no quiere limpiarme el pico para ir a la boda de mi tío Perico."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Y el perro dijo:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- Ahora mismo."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Entonces la oveja dijo:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- No, perdón, que yo me comeré la hierba."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Y la hierba dijo:"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="- No, perdón, que yo le limpiaré el pico."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0F0D72"
+                android:layout_marginVertical="2dp"
+                android:text="Y se lo limpió. Entonces el gallo le dio las gracias a su amigo el perro con un largo “¡Quiquiriquí!”. Y echó a correr para llegar a tiempo a la boda y alcanzar algo de los dulces y el vino de la fiesta."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="a) Elija y escriba una opción, ¿Qué se encontró en el basurero el gallo?"/>
+
+            <ImageView
+                android:id="@+id/IMAUni01Maiz"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni1lite1_maiz" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   arroz   |   maíz   |   cebada"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="El gallo encontró"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni01Lite01_Ingreso02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="7"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="en el basurero."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite01_Eje05a"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="Uni01Lite01Eje05a"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite01_Eje05a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:text="b) Elija y escriba una opción, ¿A quién dio las gracias el gallo?"/>
+
+            <ImageView
+                android:id="@+id/IMAUni01Perro"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/uni1lite1_perro" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#750450"
+                android:text="Opciones:   la perro   |   al perro   |   al gato"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090808"
+                    android:text="El gallo dio las gracias"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/txtUni01Lite01_Ingreso03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="escriba"
+                    android:inputType="textPersonName"
+                    android:maxLength="9"
+                    android:textColorHint="#1C5CF7"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="."
+                    android:textColor="#090808"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVeriUni01Lite01_Eje05b"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_amarillo"
+                android:onClick="Uni01Lite01Eje05b"
+                android:text="Verificar Respuesta"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/txtUni01Lite01_Eje05b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1C5CF7"
+                android:textColor="#1C5CF7"
+                android:text=""
+                android:textAlignment="center"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/evaluacion_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Evaluacion.Evaluacion2.eval_evalua202">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/evaluacion_unidad2"/>
+
+    <TextView
+        android:id="@+id/textEval2_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#0A0A0A"
+        android:text="Usuario:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <loic.teillard.colortextview.ColorTextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:clt_color1="#0A0A0A"
+        app:clt_color2="#E60F09"
+        app:clt_color3="#0A0A0A"
+        app:clt_txt1="Pregunta: "
+        app:clt_txt2="2"
+        app:clt_txt3="/10"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#E60F09"
+                android:layout_marginVertical="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="Elegir la opción correcta."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="5dp"
+                android:text="" />
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/evaluacion2_02" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="5dp"
+                android:text="" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#750450"
+                android:layout_marginVertical="4dp"
+                android:text="Los inicios de la presencia de la población de origen africano en nuestro país tienen dos momentos históricos: el primero tiene que ver con los asentamientos en la provincia de Esmeraldas y el segundo con la población del:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="18sp"
+                    android:text="Valle del Chota y de Piura." />
+
+                <RadioButton
+                    android:id="@+id/rdnEval2Pre02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="18sp"
+                    android:text="Valle del Chota y de Mira." />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0A0A0A"
+                    android:textSize="18sp"
+                    android:text="Montaña del Chota y de Mira." />
+            </RadioGroup>
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="16dp"
+                android:background="@drawable/boton_color_verde"
+                android:onClick="Evaluacion2Pregunta02"
+                android:text="Siguiente"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/boton_color_naranja"
+                android:onClick="NoRespondeEvaluacion2Preg02"
+                android:text="No responder"
+                android:textColor="@drawable/boton_menuprin_letras" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

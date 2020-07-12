@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enlace_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Enlaces.Unidad_3.enlace_menu_unidad3">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/enlace_unidad3" />
+
+    <ImageView
+        android:id="@+id/ImaEnlaceGif03"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/enlace_03_gif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnEnlaceU301"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_true_verde"
+                android:onClick="opcion_enlaceU3"
+                android:text="Página 142: Aprender Cuento 1"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnEnlaceU302"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_true_verde"
+                android:onClick="opcion_enlaceU3"
+                android:text="Página 142: Aprender Cuento 2"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnEnlaceU303"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_true_verde"
+                android:onClick="opcion_enlaceU3"
+                android:text="Página 146: Un hombre muerto a puntapiés"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnEnlaceU304"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_true_verde"
+                android:onClick="opcion_enlaceU3"
+                android:text="Página 150: Buscador de cuentos"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnEnlaceU305"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_true_verde"
+                android:onClick="opcion_enlaceU3"
+                android:text="Página 157: Programa “Querernos bien”"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnEnlaceU306"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_true_verde"
+                android:onClick="opcion_enlaceU3"
+                android:text="Página 157: Textos del feminismo"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnEnlaceU307"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_true_verde"
+                android:onClick="opcion_enlaceU3"
+                android:text="Página 157: ¿Qué es el feminismo?"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnEnlaceU308"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_true_verde"
+                android:onClick="opcion_enlaceU3"
+                android:text="Página 171: El debate"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnEnlaceU309"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/boton_color_true_verde"
+                android:onClick="opcion_enlaceU3"
+                android:text="Página 177: Formas de validar los argumentos"
+                android:textAllCaps="false"
+                android:textColor="@drawable/boton_menuprin_letras"
+                android:textSize="14sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

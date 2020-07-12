@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enlace_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Enlaces.Unidad_4.enlaceU4_03">
+
+    <ProgressBar
+        android:id="@+id/ProgressBarU403"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:background="#D897AF"
+        android:layout_height="wrap_content" />
+
+    <WebView
+        android:id="@+id/PanelWebU403"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

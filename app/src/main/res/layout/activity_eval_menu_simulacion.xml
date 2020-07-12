@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/evaluacion_fondo"
+    android:orientation="vertical"
+    tools:context=".Menu_Estudiante.Evaluacion.Simulacion.eval_menu_simulacion">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/evaluacion_simu" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B90909"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:text="INDICACIONES" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:layout_marginVertical="3dp"
+                android:text="En esta simulación encontrará 10 preguntas con diferentes modalidades de respuesta con temas del menú *Unidades -> Contenidos* y el lenguaje de señas *Glosario*."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:layout_marginVertical="3dp"
+                android:text="Una vez que ingrese a la primera pregunta no podrá regresar hasta que termine la simulación o unidad 1, 2, 3 y 4."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:layout_marginVertical="3dp"
+                android:text="Debe ingresar su primer nombre y apellido para generar su calificación."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#0A0A0A"
+                android:layout_marginVertical="3dp"
+                android:text="Cada unidad tiene una clave de ingreso que le otorgará su Docente, para esta simulación se le brinda de manera predeterminada."/>
+
+
+            <loic.teillard.colortextview.ColorTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                app:clt_color1="#0A0A0A"
+                app:clt_color2="#E60F09"
+                app:clt_txt1="Clave predeterminada: "
+                app:clt_txt2="12345"
+
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:focusable="false"
+                android:textColorHint="#030D6F"
+                android:focusableInTouchMode="true"
+                android:textSize="14sp">
+
+                <EditText
+                    android:id="@+id/txtSimu_usuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#830202"
+                    android:maxLength="40"
+                    android:hint="Ingrese su nombre y apellido"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="14sp"
+                android:textColorHint="#030D6F"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/txtSimu_clave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#830202"
+                    android:hint="Ingrese la clave predeterminada"
+                    android:maxLength="7"
+                    android:inputType="textPassword"
+                    android:textSize="14sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnSimulacionIngreso"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="40dp"
+                android:background="@drawable/boton_color_celeste"
+                android:onClick="IngresarSimulacion"
+                android:text="Ingresar a la simulación"
+                android:textColor="@drawable/boton_menuprin_letras" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

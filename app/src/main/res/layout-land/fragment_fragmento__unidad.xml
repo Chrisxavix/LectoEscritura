@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unidad_fondo"
+    android:orientation="vertical"
+    tools:context=".Fragmentos.Fragmento_Unidad">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:src="@drawable/unidad_icono" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:textAlignment="center"
+                android:textColor="#02722B"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="En esta sección el estudiante puede trabajar con la aplicación y con el Libro de Lengua y Literatura, ya que existen actividades, lecturas, relación de señas y escritos. " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ImaUnidadContenido"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/boton_unidad"
+                    android:src="@drawable/unidad_contenidos" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"/>
+
+                <ImageButton
+                    android:id="@+id/ImaUnidad1"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/boton_unidad"
+                    android:src="@drawable/unidad_unidad1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ImaUnidad2"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/boton_unidad"
+                    android:src="@drawable/unidad_unidad2" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"/>
+
+                <ImageButton
+                    android:id="@+id/ImaUnidad3"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/boton_unidad"
+                    android:src="@drawable/unidad_unidad3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ImaUnidad4"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:background="@drawable/boton_unidad"
+                    android:src="@drawable/unidad_unidad4" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
